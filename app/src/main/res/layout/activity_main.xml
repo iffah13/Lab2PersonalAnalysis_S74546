@@ -1,0 +1,66 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F5F7FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Penganalisis Peribadi"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#243B53"
+            android:gravity="center"
+            android:layout_marginBottom="40dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Penuh:"
+            android:textSize="18sp"
+            android:textColor="#243B53" />
+
+        <EditText
+            android:id="@+id/editNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="cth: Ahmad bin Ali"
+            android:inputType="textPersonName"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="25dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tarikh Lahir:"
+            android:textSize="18sp"
+            android:textColor="#243B53" />
+
+        <EditText
+            android:id="@+id/editTarikh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="YYYY-MM-DD"
+            android:inputType="date"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="30dp" />
+
+        <Button
+            android:id="@+id/btnAnalisis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ANALISIS SAYA"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#3478C0" />
+
+    </LinearLayout>
+
+</ScrollView>
